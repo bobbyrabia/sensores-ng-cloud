@@ -28,10 +28,12 @@ export class LoginComponent {
     password!: string;
 
     constructor(public router:Router, public layoutService: LayoutService, private authenticationService:AuthenticationService) { }
-    login(form:NgForm){
+    login(){
+        this.router.navigate(['/dashboard/node']);
+        /*
         this.authenticationService.login(this.creds).subscribe(res=>{
             console.log(res);
-            this.router.navigate([' ']);
-        })
+            this.router.navigate(['/dashboard']);
+        })*/
     }
 }

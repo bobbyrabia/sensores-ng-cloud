@@ -46,11 +46,6 @@ export class AppMenuComponent implements OnInit {
                                 label: 'Dióxido de carbono',
                                 icon: 'pi pi-fw pi-cloud',
                                 routerLink: ['node/co2']
-                            },
-                            {
-                                label: 'Velocidad del viento',
-                                icon: 'pi pi-fw pi-sync',
-                                routerLink: ['node/wind']
                             }
                         ]
                     }
@@ -62,10 +57,10 @@ export class AppMenuComponent implements OnInit {
                 items: [
                     {
                         label: 'Dron 1',
-                        icon: 'pi pi-fw pi-user',
+                        icon: 'pi pi-fw pi-camera',
                         items: [
                             {
-                                label: 'Resumen general',
+                                label: 'Transmisión',
                                 icon: 'pi pi-fw pi-sign-in',
                                 routerLink: ['drone/']
                             },

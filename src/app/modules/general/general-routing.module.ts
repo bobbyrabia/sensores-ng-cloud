@@ -4,7 +4,7 @@ import {ResumeMainComponent} from "./common/general/pages/resume-main/resume-mai
 
 const routes:Routes=[
     {
-        path:'general', component:ResumeMainComponent
+        path:'', component:ResumeMainComponent
     }
 ];
 @NgModule(
