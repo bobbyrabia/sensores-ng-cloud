@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "tesis-sensores-45390"
+  },
+  "targets": {
+    "tesis-sensores-45390": {
+      "hosting": {
+        "sakai-ng": [
+          "tesis-sensores-45390"
+        ]
+      }
+    }
+  }
+}
